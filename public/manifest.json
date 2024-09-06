@@ -1,0 +1,64 @@
+{
+    "short_name": "Devicethread",
+    "name": "Devicethread",
+    "icons": [ 
+      {
+        "src": "dev.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "icon512_maskable.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icon512__rounded.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "scope": "/",
+    "orientation": "portrait",
+    "description": "An example of a Progressive Web App with a comprehensive manifest file.",
+    "lang": "en",
+    "form_factor": {
+      "mobile": {
+        "screen_size": "small",
+        "orientation": "portrait"
+      },
+      "tablet": {
+        "screen_size": "medium",
+        "orientation": "landscape"
+      },
+      "desktop": {
+        "screen_size": "large",
+        "orientation": "landscape"
+      }
+    },
+    "screenshots": [
+      {
+        "src": "homepage.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "description": "Homepage of the app"
+      },
+      {
+        "src": "homepage.png",
+        "sizes": "1280x800",
+        "type": "image/png",
+        "description": "Homepage of the app"
+      },
+      {
+        "src": "homepage.png",
+        "sizes": "1920x1080",
+        "type": "image/png",
+        "description": "Homepage of the app"
+      }
+    ]
+  }
+  

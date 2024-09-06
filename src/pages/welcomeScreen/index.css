@@ -1,0 +1,77 @@
+.main-container {
+     height: 90vh;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+}
+
+.img {
+    width: 375px;
+    height: 300px;
+}
+
+.text-container {
+    height: 420px;
+    width: 375px;
+    background-color: #fff;
+    padding: 40px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headtext-container {
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-text {
+    color: #71727A;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 38.73px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Inter;
+}
+
+.wel-text {
+    font-weight: 900;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0.01em;
+}
+
+
+.para-text {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    font-family: Inter;
+}
+.span {
+    font-family: Inter;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.01em;
+}
+
+.spacer {
+    margin-top: 16px;
+}
+
+
+.icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+}
